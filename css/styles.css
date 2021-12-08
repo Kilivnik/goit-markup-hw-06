@@ -597,6 +597,47 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mailing {
+  margin-left: 93px;
+}
+
+.mailing-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailing-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.footer-email-mailing {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: none;
+}
+
+.mailing-btn {
+  width: 200px;
+  height: 50px;
+  background: var(--primary-btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* .footer-email-mailing + .mailing-btn {
+  margin-right: 12px;
+} */
 /*--------------PORTFOLIO----------*/
 .filters-list {
   display: flex;
@@ -821,4 +862,14 @@ body {
   display: block;
   resize: none;
   margin-bottom: 4px;
+}
+
+.form-btn {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  background: var(--primary-btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
