@@ -598,13 +598,16 @@ body {
 }
 
 .mailing {
-  margin-left: 93px;
+  margin-left: auto;
+  height: 86px;
+  width: 570px;
 }
 
 .mailing-form {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
 .mailing-text {
@@ -624,7 +627,28 @@ body {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  background-color: transparent;
+  margin-right: 12px;
+  padding: 15px 15px;
   outline: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: var(--second-text-btn-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-email-mailing::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-email-mailing:focus {
+  border-color: var(--accent-color);
 }
 
 .mailing-btn {
@@ -633,11 +657,27 @@ body {
   background: var(--primary-btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 10px 28px 10px 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-/* .footer-email-mailing + .mailing-btn {
-  margin-right: 12px;
-} */
+.mailing-btn-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+}
+
+.mailing-icon {
+  fill: var(--primary-color);
+  /* margin-left: 10px; */
+}
+
 /*--------------PORTFOLIO----------*/
 .filters-list {
   display: flex;

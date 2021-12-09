@@ -398,15 +398,25 @@
             </div>
             <div class="mailing">
                 <p class="mailing-text">Подпишитесь на рассылку</p>
-                <form action="mailing-form">
+                <form action="#" class="mailing-form">
+                    <label for="email-mailing">
                     <input 
                         type="email" 
                         name="email-mailing" 
                         id="email-mailing" 
                         class="footer-email-mailing" 
+                        placeholder="E-mail"
                         required
                     >
-                    <button class="button mailing-btn" type="submit">Подписаться</button>
+                    </label>
+                    <button class="button mailing-btn" type="submit">
+                        <span class="mailing-btn-text">
+                        Подписаться
+                        </span>
+                        <svg class="mailing-icon" width="24" height="24">
+                            <use href=" ./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
                 </form>
             </div>
         </div>
