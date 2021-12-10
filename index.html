@@ -424,7 +424,7 @@
 
     <!-- Модальное окно -->
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
         <div class="modal">
             <button type="button" class="modal-btn" data-modal-close>
                 <svg class="modal-icon" width="18" height="18">
@@ -443,6 +443,9 @@
                         required
                         minlength="2"
                     >
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images//icons.svg#icon-person-modal"></use>
+                    </svg>
                 </div>
                 <div class="modal-field">
                     <label for="user-tel" class="label-modal-text">Телефон</label>
@@ -481,7 +484,7 @@
         </div>
     </div>
 
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>

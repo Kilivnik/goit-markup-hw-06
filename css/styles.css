@@ -675,7 +675,6 @@ body {
 
 .mailing-icon {
   fill: var(--primary-color);
-  /* margin-left: 10px; */
 }
 
 /*--------------PORTFOLIO----------*/
@@ -857,6 +856,12 @@ body {
 
 .modal-field {
   margin-bottom: 10px;
+  position: relative;
+}
+
+.modal-icon {
+  position: absolute;
+  left: 12px;
 }
 
 .modal-form-input {
@@ -865,7 +870,7 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
-  padding-left: 16px;
+  padding-left: 42px;
   outline: none;
 }
 
