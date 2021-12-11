@@ -919,6 +919,13 @@ body {
   margin-bottom: 4px;
 }
 
+.modal-field-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .check-text {
   display: flex;
   align-items: center;
